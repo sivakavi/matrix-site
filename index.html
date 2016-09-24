@@ -15,6 +15,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Custom Theme files -->
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <link href="css/custom.css" rel='stylesheet' type='text/css' />
+<link href="css/modal-videos.css" rel="stylesheet" type='text/css' />
+<link href="css/example.css" rel="stylesheet" type='text/css' />
 <!-- js -->
    <script src="js/jquery-1.11.1.min.js"></script>
 <!-- //js -->
@@ -30,6 +32,14 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		$(".scroll").click(function(event){		
 			event.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+	"use strict";
+	$(document).ready(function () {
+	
+		//each video has need its own instance of modalVideoOptions  
+		$('a[href]').each(function(){
+			$(this).modalvideo(new ModalVideoOptions());
 		});
 	});
 </script>
@@ -316,27 +326,26 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				<li><a href="mailto:info@example.com">contact@example.com</a> </li>
 			</ul>
 		</div> -->
-		<div class="footer-left">
+		<div class="footer-middle">
 			<h3>VIDEOS</h3>
 			<div class="foo-grids">
-				<a href="#"><img class="img-responsive" src="images/blog1.jpg" alt="" /></a>
+				<a href="https://www.youtube.com/watch?v=YE7VzlLtp-4">
+					<img class="img-responsive" src="images/videoIcon.png"/>
+				</a>
 				<p><a href="#">Accusamus et iusto 
 				odio dignissimos ducimus et iusto odio qui blanditiis dignissimos</a></p>
 				<div class="clearfix"></div>
 			</div>
 			<div class="foo-grids">
-				<a href="#"><img class="img-responsive" src="images/blog2.jpg" alt="" /></a>
-				<p><a href="#">Odio dignissimos ducimus qui blanditiis
-				praesentium voluptatum Accusamus et iusto</a></p>
-				<div class="clearfix"></div>
-			</div>
-			<div class="foo-grids">
-				<a href="#"><img class="img-responsive" src="images/blog3.jpg" alt="" /></a>
-				<p><a href="#">Dignissimos ducimus qui blanditiis
-				praesentium voluptatum. Odio dignissimos ducimus</a></p>
+				<a href="https://www.youtube.com/watch?v=YE7VzlLtp-4">
+					<img class="img-responsive" src="images/videoIcon.png"/>
+				</a>
+				<p><a href="#">Accusamus et iusto 
+				odio dignissimos ducimus et iusto odio qui blanditiis dignissimos</a></p>
 				<div class="clearfix"></div>
 			</div>
 		</div>
+
 		<div class="footer-middle">
 			<h3>FROM THE BLOG</h3>
 			<div class="foo-grids">
@@ -414,10 +423,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		*/								
 		$().UItoTop({ easingType: 'easeOutQuart' });
 		});
+		  
 	</script>
 	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->
 <!-- for bootstrap working -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/modal-videos.js"></script>
 		<script src="js/bootstrap.js"></script>
 <!-- //for bootstrap working -->
 
