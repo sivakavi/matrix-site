@@ -30,7 +30,7 @@ padding:0;
   width: 100%;
   height:100%;
 }
-.logo{
+.site-logo{
 	float:left;
 	padding: 0 0px;
 	background: url("../images/logoone.png") no-repeat 0px 0px;
@@ -38,12 +38,15 @@ padding:0;
 	height: 150px;
 	background-size: 100% 100%; 
 }
+.logo-title{
+  padding-top: 30px;
+}
 span.menu{
 	display:none;
 }
 .top-nav {
     float: right;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .modal-content {
@@ -60,7 +63,7 @@ span.menu{
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-  background:#ff3366;
+  background:#ff2800;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -79,7 +82,7 @@ span.menu{
   left: 0;
   right: 0;
   bottom: 0;
-  background:#000;
+  background:#ffffff;
 
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -95,7 +98,8 @@ span.menu{
   -o-border-radius: 5px;
 }
 .hvr-rectangle-out:hover,.hvr-rectangle-out:focus,.hvr-rectangle-out:active {
-  color: white;
+  color: #000;
+  text-decoration: none;
 }
 .hvr-rectangle-out:hover:before,.hvr-rectangle-out:focus:before,.hvr-rectangle-out:active:before {
   -webkit-transform: scale(1);
@@ -103,7 +107,7 @@ span.menu{
 }
 .nav-wil ul li:nth-child(6) a:hover{
 	background:#ff3366;
-	color:#fff;
+	color:#ffffff;
 }
 /*-- Effect 11 --*/
 .cl-effect-11 a {
@@ -125,8 +129,8 @@ font-size:16px;
 	overflow: hidden;
 	padding: 0 0 6px 0;
 	max-width: 0;
-	border-bottom: 2px solid #ff3366;
-	color: #ff3366;
+	border-bottom: 2px solid #ff2800;
+	color: #ff2800;
 	content: attr(data-hover);
 	-webkit-transition: max-width 0.5s;
 	-moz-transition: max-width 0.5s;
@@ -174,11 +178,12 @@ text-decoration:none;
 /* Yaku */
 .logo .link--yaku {
 	font-family: 'Alegreya Sans', sans-serif;
-	color: #ff3366;
+	color: #ff2800;
 	font-weight: 500;
 	font-size: 42px;
 	overflow: hidden;
 	padding: 0 0 0px;
+  margin-left: 50px;
 }
 
 .logo .link--yaku::before {
@@ -188,7 +193,7 @@ text-decoration:none;
 	height: 100%;
 	width: 100%;
 	border-width: 2px 0;
-	border-color:#ff3366;
+	border-color:#ff2800;
 	border-style: solid;
 	left: 0;
 	-webkit-transform: translate3d(-101%,0,0);
@@ -213,7 +218,7 @@ text-decoration:none;
 }
 
 .logo .link--yaku:hover span {
-	color:#ff3366;
+	color:#ffffff;
 	-webkit-transform: perspective(1000px) rotate3d(0,1,0,360deg);
 	transform: perspective(1000px) rotate3d(0,1,0,360deg);
 }
@@ -269,7 +274,7 @@ ul.nav-wil li:nth-child(6) a:hover{
     display: inline-block;
 }
 .top-nav ul li a.active{
-	color:#ff3366;
+	color:#ff2800;
 }
 .banner-info h2{
 	font-family: 'Alegreya Sans', sans-serif;
@@ -299,6 +304,8 @@ ul.nav-wil li:nth-child(6) a:hover{
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -o-border-radius: 5px;
+  text-transform: uppercase;
+  font-family: cursive;
 }
 .arrow {
     margin: 100px 0 50px 0;
@@ -316,7 +323,7 @@ ul.nav-wil li:nth-child(6) a:hover{
 	height: 32px;
 	border: none;
 	text-indent: 100%;
-	background: url("../images/arr.png") no-repeat 0px 0px;
+	background: url("../images/top.png") no-repeat 0px 0px;
 }
 #toTopHover {
 	width: 32px;
@@ -330,8 +337,8 @@ ul.nav-wil li:nth-child(6) a:hover{
 }
 /*-- //to-top --*/
 .center-container {
-    /*padding: 80px 0 0 0;*/
 	padding: 30px 0 0 0;
+  background: rgba(0,0,0,0.65);
 }
 .arrow {
     margin: 100px 0;
@@ -393,6 +400,10 @@ ul.nav-wil li:nth-child(6) a:hover{
 	-moz-background-size: cover;
 	-o-background-size: cover;
     padding: 110px 0;
+}
+.testimonials .content{
+  background: rgba(0,0,0,0.70);
+  padding: 25px;
 }
 .testimonials h3{
 	text-align:center;
@@ -1797,8 +1808,8 @@ ul.nav1{
 		margin: 0;
 		width: 100%;
 		padding: 0px 0;
-	    margin: 9px 0;
-		}
+	  margin: 9px 0;
+	}
 	.nav > li > a {
 		display: inline-block;
 	}

@@ -289,9 +289,9 @@
 }
 
 .trainwithus{
-    text-align: center;
-    text-transform: capitalize;
-    font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
 }
 
 @media(max-width:480px){
