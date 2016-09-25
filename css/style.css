@@ -621,42 +621,49 @@ ul.nav-wil li:nth-child(6) a:hover{
 	height:26px;
 	display:block;
 }
-.copy-right ul li a.fb1{
-    background: url(../images/socialicons.png) no-repeat -3px -5px;
+.sprite {
+  background-image: url(../images/spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
 }
-.copy-right ul li a.fb1:hover {
+.copy-right ul li a.facebook{
+   width: 50px;
+    height: 50px;
+    background-position: -5px -5px; 
+}
+.copy-right ul li a.facebook:hover {
 	transform:rotateY(360deg);
 }
-.copy-right ul li a.fb2{
-    background: url(../images/socialicons.png) no-repeat -3px -36px;
+.copy-right ul li a.twitter{
+    width: 50px;
+    height: 50px;
+    background-position: -65px -65px;
 }
-.copy-right ul li a.fb2:hover {
+.copy-right ul li a.twitter:hover {
 	transform:rotateY(360deg);
 }
-.copy-right ul li a.fb3 {
-    background: url(../images/social-icons.png) no-repeat -3px -67px;
+.copy-right ul li a.linkedin {
+   width: 50px;
+    height: 50px;
+    background-position: -65px -5px;
 }
-.copy-right ul li a.fb3 {
-    background: url(../images/social-icons.png) no-repeat -3px -67px;
+.copy-right ul li a.linkedin:hover {
+  transform:rotateY(360deg);
 }
-/*.copy-right ul li a.twitter-icon {
-    background: url(../images/twitter.png) no-repeat;
-    width: 26px;
-    height: 26px;
-}*/
-.copy-right ul li a.fb3:hover {
+.copy-right ul li a.pinterest {
+   width: 50px;
+    height: 50px;
+    background-position: -5px -65px;
+}
+.copy-right ul li a.pinterest:hover {
 	transform:rotateY(360deg);
 }
-.copy-right ul li a.fb4{
-    background:url(../images/social-icons.png) no-repeat -3px -101px;
+.copy-right ul li a.youtube{
+  width: 50px;
+    height: 50px;
+    background-position: -125px -5px;
 }
-.copy-right ul li a.fb4:hover {
-	transform:rotateY(360deg);
-}
-.copy-right ul li a.fb5{
-    background:url(../images/social-icons.png) no-repeat -3px -139px;
-}
-.copy-right ul li a.fb5:hover {
+.copy-right ul li a.youtube:hover {
 	transform:rotateY(360deg);
 }
 
@@ -669,7 +676,7 @@ background-size:cover;
 -o-background-size: cover;
 -ms-background-size: cover;
 -moz-background-size: cover;
-padding:80px 0;
+padding:10px 0 95px;
 }
 h3.tittle,h2.tittle{
     font-size: 40px;
