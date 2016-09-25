@@ -20,7 +20,7 @@
 .train-grid h4 {
     font-size: 1.8em;
     color: #1E1E1E;
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: cursive;
     margin-top: 0.8em;
 }
 .train-grid p {
@@ -30,7 +30,7 @@
     margin-top: 0.5em;
 }
 .train-grid:hover div.train-img {
-	    background: #ff3366;
+	    background: #ff2800;
 }
 .train-grid:hover.train-grid h4 {
     color: #fff;

@@ -622,31 +622,39 @@ ul.nav-wil li:nth-child(6) a:hover{
 	display:block;
 }
 .copy-right ul li a.fb1{
-    background: url(../images/social.png) no-repeat -3px -5px;
+    background: url(../images/socialicons.png) no-repeat -3px -5px;
 }
 .copy-right ul li a.fb1:hover {
 	transform:rotateY(360deg);
 }
 .copy-right ul li a.fb2{
-    background: url(../images/social.png) no-repeat -3px -36px;
+    background: url(../images/socialicons.png) no-repeat -3px -36px;
 }
 .copy-right ul li a.fb2:hover {
 	transform:rotateY(360deg);
 }
 .copy-right ul li a.fb3 {
-    background: url(../images/social.png) no-repeat -3px -67px;
+    background: url(../images/social-icons.png) no-repeat -3px -67px;
 }
+.copy-right ul li a.fb3 {
+    background: url(../images/social-icons.png) no-repeat -3px -67px;
+}
+/*.copy-right ul li a.twitter-icon {
+    background: url(../images/twitter.png) no-repeat;
+    width: 26px;
+    height: 26px;
+}*/
 .copy-right ul li a.fb3:hover {
 	transform:rotateY(360deg);
 }
 .copy-right ul li a.fb4{
-    background:url(../images/social.png) no-repeat -3px -101px;
+    background:url(../images/social-icons.png) no-repeat -3px -101px;
 }
 .copy-right ul li a.fb4:hover {
 	transform:rotateY(360deg);
 }
 .copy-right ul li a.fb5{
-    background:url(../images/social.png) no-repeat -3px -139px;
+    background:url(../images/social-icons.png) no-repeat -3px -139px;
 }
 .copy-right ul li a.fb5:hover {
 	transform:rotateY(360deg);
