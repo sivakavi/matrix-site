@@ -129,7 +129,7 @@ font-size:16px;
 	overflow: hidden;
 	padding: 0 0 6px 0;
 	max-width: 0;
-	border-bottom: 2px solid #ff2800;
+	border-bottom: 2px solid #ffffff;
 	color: #ff2800;
 	content: attr(data-hover);
 	-webkit-transition: max-width 0.5s;
@@ -178,7 +178,7 @@ text-decoration:none;
 /* Yaku */
 .logo .link--yaku {
 	font-family: 'Alegreya Sans', sans-serif;
-	color: #ff2800;
+	color: #ffffff;
 	font-weight: 500;
 	font-size: 42px;
 	overflow: hidden;
@@ -192,7 +192,7 @@ text-decoration:none;
 	height: 100%;
 	width: 100%;
 	border-width: 2px 0;
-	border-color:#ff2800;
+	border-color:#ffffff;
 	border-style: solid;
 	left: 0;
 	-webkit-transform: translate3d(-101%,0,0);
@@ -217,7 +217,7 @@ text-decoration:none;
 }
 
 .logo .link--yaku:hover span {
-	color:#ffffff;
+	color:#ff2800;
 	-webkit-transform: perspective(1000px) rotate3d(0,1,0,360deg);
 	transform: perspective(1000px) rotate3d(0,1,0,360deg);
 }
@@ -399,6 +399,7 @@ ul.nav-wil li:nth-child(6) a:hover{
 	-moz-background-size: cover;
 	-o-background-size: cover;
     padding: 110px 0;
+    margin-top: 80px;
 }
 .testimonials .content{
   background: rgba(0,0,0,0.70);
@@ -1573,7 +1574,7 @@ button.close {
 	}
 	.content-right {
 		float: left;
-		width: 68%;
+		width: 67%;
 	}
 	.content-left p {
 		line-height: 1.8em;
@@ -1726,7 +1727,7 @@ button.close {
 }
 @media (max-width: 800px){
 .content-right img, .content-left {
-    min-height: 175px;
+    /*min-height: 175px;*/
 }	
 }
 @media (max-width: 768px){
