@@ -473,7 +473,7 @@ ul.nav-wil li:nth-child(6) a:hover{
 	display:block;
 	background:url("../images/mark.png") no-repeat 0px 11px;
     padding-left: 25px;
-	line-height:2.8em;
+	line-height:2em;
 	font-size:14px;
 }
 .method-grids ul li a{
@@ -484,16 +484,18 @@ ul.nav-wil li:nth-child(6) a:hover{
 	color: #Ff3366;
 }
 .method-grids{
-	margin-top:50px;
+	margin-top:0px;
+}
+.method-grids h3{
+  text-align: center;
 }
 .method-grids ul {
-	float:left;
-	width:33.3%;
+	margin: 0 auto;
 }
 /*-- //training-grids --*/
 .footer-top{
 	background:#000;
-	padding:80px 0;
+	padding:50px 0;
 }
 .footer-top ul li {
     list-style-type: none;
@@ -2084,7 +2086,6 @@ button.close {
 }
 @media (max-width: 568px){
 	.method-grids ul {
-		float: left;
 		width: 50%;
 	}	
 	.method-grids ul:nth-child(4){
@@ -2519,4 +2520,7 @@ h1.t-button, h2.t-button, h3.t-button, h4.t-button, h5.t-button {
   .train .w3-agile > .w3-agile-row{
     margin: 0 !important;
   }
+}
+.fitness-instruct{
+  display: flex;
 }
